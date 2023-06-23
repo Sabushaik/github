@@ -1,0 +1,26 @@
+import java.util.*;
+ public class armstrong
+{
+public static void main(String args[])
+{
+int n , tem, rem, rev=0;
+Scanner sc =new Scanner(System.in);
+System.out.println("Enter the integer ");
+n=sc.nextInt();
+tem=n;
+while(n!=0)
+{
+rem=n%10;
+rev=rev+rem*rem*rem;
+n=n/10;
+}
+if(rev==tem)
+{
+System.out.println("yes it is number  ");
+}
+else
+{
+System.out.println("not a armstrong ");
+}
+}
+}

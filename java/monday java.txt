@@ -1,0 +1,42 @@
+parameters passing:= assaigning values to the programm in execution time ;
+ARRAY:= 
+collection of similar data types 
+elements stored in contiguous memory 
+after declaration of size of array we cannot add more elements then declared size 
+
+DECLARATION
+  datatype []array = new datatype [size ];
+index always starts with 0;
+if n elements the last index of array will be n-1;
+10 elements ...... last index position 9 ;
+assaigning will be done as a[0]=1..
+a[1]=2;
+a[2]=3;
+....
+already assaigned array 
+for(int i =0; i<n ; i++)
+{
+System.out.println(a[i]);
+}
+multi dimensional 
+ int [][]a= new int[][];
+[00 01 ]
+  
+[10  11]
+
+
+import java.util.*;
+class array 
+{
+public static void main(String args[])
+{
+Scanner sc = new Scanner(System.in);
+System.out.println("enter the size of array);
+int n =sc.nextInt();
+int []a = new int[n];//array declaration;
+for(int i =0;i<n;i++)
+{System.out.println("enter number");
+a[i]=sc.nextInt();
+System.out.println(a[i]);
+}
+

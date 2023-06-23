@@ -1,0 +1,33 @@
+in java a constructer is block of codes similar to the method.It is called when an instance of the class is created. At the time of caling constructer, memory for the object is allocated imn the memory.
+	It is a special type of method which is used to initialized the object.
+Every time an object is created using the new() keyword, at least one constructer is calle It calls a default constructer if there is no condtructer availble in the clacc. in such case, Java compiler provides a default constructer by default.
+there are two types of constructer in java: no-arg costructer, ad parameterized constructer.\Note: It is called constructer because itconstructs the values at the time of objrct creation. It is not necessary to write a constructer for a class. it is beacause java compiler created a default constructer if  your class doesn't hava any.
+rules for crating java constructer 
+There are two rules defined for the condtructer.
+1. Constructer name must be the same as its clss name
+2. A Constructer must have no ecplict return type 3. A Java constructer cannot be abstract, static , final ,and synchoronized
+Note : We can use access modifiers whie declaring a constuctor, It controls th eobject creation, in other wpords, we can hava private, private, protected , public or default constructor in java.
+Types of Java constructors 
+There are two types constructors in java:
+1. Default constructor (no-arg constructer)
+2. Parameterized constructot 
+Java Default constructer A constructor is called " Default Constructer " when it doesn't hava any parameter.
+Syntax of default constructor
+<class_namw>(){}
+In this example, we are creating the no-arg comstructor in the Bike class. it will be invoked at time of object creation.
+1.//Java program to create call a deafult constructor 
+2. class Bike 1{
+3. //creating a default constructor 
+4. Bike 1(){System.out.prinbtln("Bike is created ");}
+5.//main method 
+6.public static void main(String args[]){
+7.//calling a default constructor 
+8. bIKE 1 B=NEW bIKE 1();
+9.}
+10.}
+RULE : If there is no constructor in a calss, compiler automatically creates a deafult constructor.
+Q) What is the purpose of default constructor?
+the default constructor is used to provide the default values 
+
+Explanation: In the above class, you are not cereating any constructor so compiler provides you a deafult constructor. Here 0 and null calues are provides by default constructor.
+so compiler provides you a default constructor. Here 0mandnull values are provides by default constructor. 
